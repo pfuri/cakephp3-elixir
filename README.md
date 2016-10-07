@@ -68,7 +68,7 @@ The only remaining step is to install Elixir for CakePHP. To do this you will ne
     "bootstrap-sass": "^3.3.7",
     "gulp": "^3.9.1",
     "jquery": "^3.1.0",
-    "cakephp3-elixir": "^1.0.1",
+    "cakephp3-elixir": "^1.0.2",
     "laravel-elixir-del": "^0.1.1",
     "laravel-elixir-webpack-official": "^1.0.2",
     "lodash": "^4.16.2"
