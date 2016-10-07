@@ -1,4 +1,4 @@
-***Note: This module is targeted for CakePHP 3.x.  For CakePHP 2.x please use [cakephp3-elixir](https://www.npmjs.com/package/cakephp-elixir) instead.***
+***Note: This module is targeted for CakePHP 3.x.  For CakePHP 2.x please use [cakephp-elixir](https://www.npmjs.com/package/cakephp-elixir) instead.***
 
 # Elixir For CakePHP
 
