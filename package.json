@@ -1,6 +1,6 @@
 {
   "name": "cakephp3-elixir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CakePHP 3 Elixir Core",
   "main": "index.js",
   "scripts": {
