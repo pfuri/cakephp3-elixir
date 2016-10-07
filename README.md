@@ -355,9 +355,16 @@ elixir(function(mix) {
 After generating the versioned file, you may use the [CakePHP Elixir Helper](https://github.com/pfuri/cakephp3-elixir/blob/master/ElixirHelper.php) within your views to load the appropriately hashed asset. You must add the Elixir Helper to your app's helpers array before it will be available:
 
 ```php
-class AppController {
-    public $helpers = array('Elixir');
-
+class AppView extends View
+{
+    public function initialize()
+    {
+        parent::initialize();
+        $this->loadHelper('Elixir');
+        
+        [...]
+    }
+    
     [...]
 }
 ```
