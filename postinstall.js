@@ -7,7 +7,7 @@ ncp(source, destination, options, function (err) {
 	if (err) {
 		return console.error(err);
 	}
- 	console.log("app/resources copied (noclobber) successfully!\n");
+ 	console.log("resources copied (noclobber) successfully!\n");
 });
 
 source = "elixir.example.json";
@@ -16,7 +16,7 @@ ncp(source, destination, options, function (err) {
     if (err) {
         return console.error(err);
     }
-    console.log("app/elixir.json copied (noclobber) successfully!\n");
+    console.log("elixir.json copied (noclobber) successfully!\n");
 });
 
 source = "gulpfile.example.js";
@@ -25,16 +25,16 @@ ncp(source, destination, options, function (err) {
     if (err) {
         return console.error(err);
     }
-    console.log("app/gulpfile.js copied (noclobber) successfully!\n");
+    console.log("gulpfile.js copied (noclobber) successfully!\n");
 });
 
 source = "ElixirHelper.php";
-destination = "../../View/Helper/ElixirHelper.php";
+destination = "../../src/View/Helper/ElixirHelper.php";
 ncp(source, destination, options, function (err) {
     if (err) {
         return console.error(err);
     }
-    console.log("app/View/Helper/ElixirHelper.php copied (noclobber) successfully!\n");
+    console.log("src/View/Helper/ElixirHelper.php copied (noclobber) successfully!\n");
 });
 
 console.log("\nThank you for using CakePHP Elixir!\n");
