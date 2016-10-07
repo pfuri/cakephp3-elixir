@@ -1,0 +1,32 @@
+{
+  "name": "cakephp-elixir",
+  "version": "1.2.3",
+  "description": "CakePHP Elixir Core",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pfuri/cakephp-elixir"
+  },
+  "keywords": [
+    "cakephp",
+    "elixir",
+    "gulp",
+    "sass",
+    "webpack"
+  ],
+  "author": {
+    "name": "Paul Furiani",
+    "email": "npm@furiani.net"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/pfuri/cakephp-elixir",
+  "dependencies": {
+    "laravel-elixir": "^6.0.0-9",
+    "ncp": "^2.0.0",
+    "underscore": "^1.8.3",
+    "underscore-deep-extend": "1.0.4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "assetsPath": "resources/assets",
+    "publicPath": "webroot",
+    "appPath": "",
+    "viewPath": "View",
+    "notifications": true,
+    "css": {
+        "folder": "css",
+        "outputFolder": "css",
+        "sass": {
+            "folder": "sass",
+            "search": "/**/*.+(sass|scss)"
+        },
+        "less": {
+            "folder": "less",
+            "search": "/**/*.less"
+        }
+    },
+    "js": {
+        "folder": "js",
+        "outputFolder": "js"
+    },
+    "versioning": {
+        "buildFolder": "build"
+    }
+}
