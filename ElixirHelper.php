@@ -1,8 +1,8 @@
 <?php
 
-App::uses('AppHelper', 'View/Helper');
+namespace App\View\Helper;
 
-class ElixirHelper extends AppHelper {
+class ElixirHelper extends Helper {
 
     /**
      * Get the path to a versioned Elixir file.
