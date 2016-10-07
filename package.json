@@ -1,14 +1,14 @@
 {
-  "name": "cakephp-elixir",
-  "version": "1.2.3",
-  "description": "CakePHP Elixir Core",
+  "name": "cakephp3-elixir",
+  "version": "1.0.0",
+  "description": "CakePHP 3 Elixir Core",
   "main": "index.js",
   "scripts": {
     "postinstall": "node postinstall.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pfuri/cakephp-elixir"
+    "url": "https://github.com/pfuri/cakephp3-elixir"
   },
   "keywords": [
     "cakephp",
@@ -22,7 +22,7 @@
     "email": "npm@furiani.net"
   },
   "license": "MIT",
-  "homepage": "https://github.com/pfuri/cakephp-elixir",
+  "homepage": "https://github.com/pfuri/cakephp3-elixir",
   "dependencies": {
     "laravel-elixir": "^6.0.0-9",
     "ncp": "^2.0.0",
