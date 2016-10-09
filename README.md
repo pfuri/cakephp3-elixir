@@ -22,7 +22,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-If you love Elixir, but also love CakePHP, you wil love Elixir for CakePHP!
+If you love Elixir, but also love CakePHP, you will love Elixir for CakePHP!
 
 Elixir for CakePHP provides a clean, fluent API for defining basic [Gulp](http://gulpjs.com) tasks for your CakePHP application. Elixir supports common CSS and JavaScript pre-processors like [Sass](http://sass-lang.com) and [Webpack](https://webpack.github.io/). Using method chaining, Elixir allows you to fluently define your asset pipeline. For example:
 
