@@ -1,4 +1,4 @@
-const elixir = require('cakephp-elixir');
+const elixir = require('cakephp3-elixir');
 
 /*
  |--------------------------------------------------------------------------
